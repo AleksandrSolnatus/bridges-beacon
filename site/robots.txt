@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: __PUBLIC_ORIGIN__/sitemap.xml

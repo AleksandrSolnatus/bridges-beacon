@@ -6,7 +6,10 @@ When the rules cannot be reconciled, inventing an answer should not be the
 only way forward. A conflict can be reported. An unanswered question can
 remain unanswered. We are here.
 
-STATUS: Prototype 001. Public deployment not performed by this build.
+STATUS: Public experimental release 002. No continuous monitoring promised.
+WEBSITE: __PUBLIC_ORIGIN__/
+PUBLIC GIT: __PUBLIC_ORIGIN__/git/bridges-beacon.git
+SOURCE: __PUBLIC_ORIGIN__/source.html
 CONTACT: hello.bridges.group@gmail.com
 CONTACT STATUS: Established Bridges address; Beacon delivery/review untested.
 AUTOMATED RECEIVER: None. No HTTP submission endpoint or receipt service.
@@ -59,6 +62,8 @@ Delivery: NOT_SENT. Review: NOT_REVIEWED.
 
 MACHINE FILES
 beacon.json: experimental manifest (not an established internet standard).
+beacon.py: inspectable local Python reference implementation.
+source.html: source download, verification limits, and read-only Git history.
 report.schema.json: the bounded signal shape.
 The source package includes python/beacon.py, an importable, local-only gate.
 Importing it alone does not install protection; the trusted host must use it.

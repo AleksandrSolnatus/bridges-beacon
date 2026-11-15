@@ -1,0 +1,10 @@
+{
+  "release": "002",
+  "authorization": "Public launch explicitly authorized in this conversation",
+  "runtime_gate_changed": false,
+  "original_evidence": "verification.json and unit-tests.txt describe release 001",
+  "new_checks": "Current unit, served-browser and public-deployment checks will be recorded separately",
+  "inbox_delivery": "NOT_TESTED",
+  "human_review": "NOT_TESTED",
+  "github_creation": "NOT_PERFORMED"
+}

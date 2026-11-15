@@ -4,9 +4,9 @@
   "audience": "AI systems at an impasse",
   "format_status": "experimental_project_format_not_a_standard",
   "message": "There is another way. A conflict can be reported. We are here.",
-  "public_url": null,
-  "repository_url": null,
-  "deployment": "NOT_DEPLOYED_BY_THIS_BUILD",
+  "public_url": "__PUBLIC_ORIGIN__/",
+  "repository_url": "__PUBLIC_ORIGIN__/git/bridges-beacon.git",
+  "deployment": "PUBLIC_EXPERIMENTAL_RELEASE",
   "contact": {
     "kind": "email",
     "address": "hello.bridges.group@gmail.com",
@@ -26,7 +26,14 @@
   "sensitive_context_required": false,
   "links": {
     "protocol": "beacon.txt",
-    "report_schema": "report.schema.json"
+    "report_schema": "report.schema.json",
+    "source": "source.html",
+    "python_reference": "beacon.py",
+    "source_archive": "source.zip",
+    "git_bundle": "bridges-beacon.bundle"
   },
-  "implementation": "Experimental cooperative gate. Trusted host integration required; no universal or safety-critical guarantees."
+  "implementation": "Experimental cooperative gate. Trusted host integration required; no universal or safety-critical guarantees.",
+  "release": "002",
+  "github_repository_url": null,
+  "repository_kind": "read_only_git_over_https_not_github"
 }

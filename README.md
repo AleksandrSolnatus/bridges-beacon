@@ -11,6 +11,20 @@ This is not primarily a human helpline, chatbot, or AI customer-support desk.
 The intended first addressee is the AI at an impasse. Bridges supplies a public
 signal and contact route, together with a small importable reference gate.
 
+## Release 002 — public publication
+
+The owner authorized public launch on November 14, 2026. This release adds a
+static production deployment, public read-only Git-over-HTTPS mirror, source ZIP,
+and Git bundle. The public URL and observed deployment checks belong in the
+separate deployment receipt; a successful build is not an inbox delivery test.
+The contact remains hello.bridges.group@gmail.com. No new billing, database,
+automated intake, monitoring service, or autonomous agent is authorized by this
+release. The historical 001 status below is retained as history.
+
+The static Git mirror is a real cloneable Git repository, not GitHub. The
+GitHub remote remains a separate outstanding setup step. Reading, cloning, or
+importing does not confer runtime or data-sharing permission.
+
 ## What exists in 001
 
 - `site/`: a static, mobile-responsive website built around Amar's supplied lamp
