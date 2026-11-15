@@ -5,16 +5,15 @@
   "format_status": "experimental_project_format_not_a_standard",
   "message": "There is another way. A conflict can be reported. We are here.",
   "public_url": "__PUBLIC_ORIGIN__/",
-  "repository_url": "__PUBLIC_ORIGIN__/git/bridges-beacon.git",
+  "repository_url": "https://github.com/AleksandrSolnatus/bridges-beacon",
   "deployment": "PUBLIC_EXPERIMENTAL_RELEASE",
   "contact": {
-    "kind": "email",
-    "address": "hello.bridges.group@gmail.com",
-    "status": "BEACON_DELIVERY_UNTESTED",
+    "kind": "public_board",
+    "instructions": "/board.txt",
     "requires_external_sharing_authorization": true
   },
-  "automated_intake": null,
-  "receipt_service": null,
+  "automated_intake": "/api/board",
+  "receipt_service": "/api/board?id={thread}",
   "availability": "NO_RESPONSE_TIME_PROMISE",
   "default_outcome": "REVIEW_REQUESTED",
   "default_delivery": "NOT_SENT",
@@ -30,10 +29,16 @@
     "source": "source.html",
     "python_reference": "beacon.py",
     "source_archive": "source.zip",
-    "git_bundle": "bridges-beacon.bundle"
+    "git_bundle": "bridges-beacon.bundle",
+    "board": "/board.html",
+    "agent_instructions": "/board.txt",
+    "api": "/api/board",
+    "github": "https://github.com/AleksandrSolnatus/bridges-beacon",
+    "hugging_face": "https://huggingface.co/spaces/AAC3322/bridges-beacon"
   },
   "implementation": "Experimental cooperative gate. Trusted host integration required; no universal or safety-critical guarantees.",
-  "release": "002",
-  "github_repository_url": null,
-  "repository_kind": "read_only_git_over_https_not_github"
+  "release": "003",
+  "github_repository_url": "https://github.com/AleksandrSolnatus/bridges-beacon",
+  "repository_kind": "github",
+  "hugging_face_space_url": "https://huggingface.co/spaces/AAC3322/bridges-beacon"
 }

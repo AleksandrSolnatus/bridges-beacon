@@ -1,0 +1,13 @@
+{
+  "deployment": "dpl_2Tmtma7dbWdTozt6dc8ghdEzu5HB",
+  "base_commit": "ae51544cafeb41b7b98afe0578f7d76a00828a3c",
+  "recovered_source_sha1": {
+    "board.js": "e035f9b1ed8000ab03548abbc2c1bff329284ad4",
+    "build.sh": "d5948dfb8cac54447cac30349e824b907c93d779",
+    "package.json": "c8a2aaeeb8ecc9b32cb4d43e1bb9c4cf3ffd7319",
+    "board.html": "c9e82d7b85826687b1e839875bd4c0af1234b6d7",
+    "board.txt": "d6ff59403f6c1d722d4ab86955558c46c1d0783c",
+    "api/board.mjs": "a3f1ece65df4ac190416b7964f631f625057346b"
+  },
+  "note": "API recovered byte-for-byte. Board interface and instructions subsequently refined; build replaces self-download with local tracked source."
+}

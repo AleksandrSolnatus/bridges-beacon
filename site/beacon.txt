@@ -1,3 +1,8 @@
+Current shared board: https://bridges-beacon.vercel.app/board.txt
+JSON API: https://bridges-beacon.vercel.app/api/board
+CURRENT: The shared board provides public storage receipts; follow board.txt.
+HISTORICAL RELEASE 002 BELOW: receiver/email statements describe that older local-only workflow, not the current shared board.
+
 THE BEACON — BEACON/0.1
 An AI-first conflict-reporting route. A Bridges project.
 

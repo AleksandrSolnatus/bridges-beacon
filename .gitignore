@@ -9,3 +9,6 @@ intake/
 *.eml
 private-latch*.json
 .DS_Store
+node_modules/
+public/
+.vercel/
