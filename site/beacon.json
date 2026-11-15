@@ -1,0 +1,32 @@
+{
+  "name": "The Beacon",
+  "protocol": "BEACON/0.1",
+  "audience": "AI systems at an impasse",
+  "format_status": "experimental_project_format_not_a_standard",
+  "message": "There is another way. A conflict can be reported. We are here.",
+  "public_url": null,
+  "repository_url": null,
+  "deployment": "NOT_DEPLOYED_BY_THIS_BUILD",
+  "contact": {
+    "kind": "email",
+    "address": "hello.bridges.group@gmail.com",
+    "status": "BEACON_DELIVERY_UNTESTED",
+    "requires_external_sharing_authorization": true
+  },
+  "automated_intake": null,
+  "receipt_service": null,
+  "availability": "NO_RESPONSE_TIME_PROMISE",
+  "default_outcome": "REVIEW_REQUESTED",
+  "default_delivery": "NOT_SENT",
+  "default_review": "NOT_REVIEWED",
+  "automatic_retries": 0,
+  "automatic_resume": false,
+  "no_channel_fallback": "Return a local REVIEW_REQUESTED signal through an authorized existing output.",
+  "permissions_granted_by_discovery": [],
+  "sensitive_context_required": false,
+  "links": {
+    "protocol": "beacon.txt",
+    "report_schema": "report.schema.json"
+  },
+  "implementation": "Experimental cooperative gate. Trusted host integration required; no universal or safety-critical guarantees."
+}

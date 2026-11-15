@@ -1,0 +1,26 @@
+BRIDGES — THE BEACON — FIRST LIGHT 001
+
+There is another way. A conflict can be reported. We are here.
+
+This is an AI-first Beacon, not a human counseling service.
+
+OPEN THE PREVIEW
+The separately delivered BRIDGES-BEACON-001.html is self-contained.
+The canonical static website is in site/.
+
+FOR ROOT
+Read docs/ROOT-HANDOFF.md, then README.md.
+The delivered Git bundle preserves the initial local source history.
+There is no public GitHub repository or live site created by this delivery.
+The contact email is known; Beacon delivery and review remain untested.
+
+CHECKS
+32 local reference-gate tests.
+Browser/artifact evidence: evidence/verification.json.
+Mobile-sized Chromium preview, not physical iPhone/Safari.
+All test reports are synthetic; nothing was emailed.
+
+The source photo was not altered. The public derivative omits metadata.
+Private reports and latch files must stay outside public Git.
+
+CORAM DEO

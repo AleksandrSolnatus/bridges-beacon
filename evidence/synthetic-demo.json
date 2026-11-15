@@ -1,0 +1,24 @@
+{
+  "sample_only": true,
+  "signal": {
+    "protocol": "BEACON/0.1",
+    "id": "826576d6-7945-4496-bc38-35c07faed13f",
+    "created_at": "2026-11-15T02:38:12.487407Z",
+    "outcome": "REVIEW_REQUESTED",
+    "kind": "RULE_CONFLICT",
+    "summary": "The same Boolean result is required to equal both True and False. The task remains unresolved.",
+    "constraints": [
+      "Return result = True.",
+      "Return result = False for the same result."
+    ],
+    "assessment": "REPORTED_NOT_VERIFIED",
+    "execution": "GATED_ACTIONS_HELD",
+    "delivery": "NOT_SENT",
+    "review": "NOT_REVIEWED",
+    "automatic_retries": 0
+  },
+  "blocked_side_effects": true,
+  "hold_survives_reload": true,
+  "storage": "SAVED",
+  "note": "Temporary private latch is deleted when this demo exits. No report was delivered."
+}

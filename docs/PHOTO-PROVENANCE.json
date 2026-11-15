@@ -1,0 +1,14 @@
+{
+  "source": "Owner-supplied IMG_0181(1).jpeg in this conversation",
+  "source_sha256": "12e8c2d309938c6e15a24d9abe9cb16dc0a4bf10e9eac4e8cfbb9dcf13d66ba1",
+  "public_derivative": "site/assets/beacon.jpg",
+  "derivative_sha256": "5c7bf8da8c6ac678959cd5c29baafe9e20342286a56429b824cd1b6dcd88e6ba",
+  "changes": [
+    "EXIF orientation honored",
+    "Metadata omitted",
+    "JPEG recompressed"
+  ],
+  "source_modified": false,
+  "generative_editing": false,
+  "rights": "Supplied by the owner for this project. No broader reuse license is asserted."
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env*
+!.env.example
+private/
+reports/
+intake/
+*.eml
+private-latch*.json
+.DS_Store

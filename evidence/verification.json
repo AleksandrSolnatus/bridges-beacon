@@ -1,0 +1,234 @@
+{
+  "project": "BRIDGES-BEACON-001",
+  "local_date": "2026-11-14",
+  "timezone": "America/Phoenix",
+  "publication": {
+    "site": "NOT_DEPLOYED",
+    "remote_github_repository": "NOT_CREATED",
+    "email_delivery": "NOT_TESTED",
+    "monitored_intake": "NOT_ESTABLISHED"
+  },
+  "unit_tests": {
+    "passed": 32,
+    "failed": 0,
+    "scope": "Local synthetic standard-library tests; see unit-tests.txt"
+  },
+  "browser": "Playwright with local Chromium; self-contained preview rendered from in-memory HTML; mobile viewport emulation, not real Safari/iPhone",
+  "environment_limit": "Browser navigation to localhost and file URLs was blocked by environment policy. No bypass attempted. The owned HTML was rendered in memory with page.set_content. HTTP serving and file navigation are not verified.",
+  "checks": [
+    {
+      "check": "No horizontal overflow at 320\u00d7740",
+      "status": "PASS",
+      "details": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "check": "Photo loaded at 320\u00d7740",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No horizontal overflow at 390\u00d7844",
+      "status": "PASS",
+      "details": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "check": "Photo loaded at 390\u00d7844",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No horizontal overflow at 430\u00d7932",
+      "status": "PASS",
+      "details": {
+        "width": 430,
+        "scroll": 430
+      }
+    },
+    {
+      "check": "Photo loaded at 430\u00d7932",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No horizontal overflow at 956\u00d7440",
+      "status": "PASS",
+      "details": {
+        "width": 956,
+        "scroll": 956
+      }
+    },
+    {
+      "check": "Photo loaded at 956\u00d7440",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No horizontal overflow at 1440\u00d71000",
+      "status": "PASS",
+      "details": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "check": "Photo loaded at 1440\u00d71000",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Protocol resource beacon.txt exists and is nonempty",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Protocol resource beacon.json exists and is nonempty",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Protocol resource report.schema.json exists and is nonempty",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Empty report accepted and valid",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Browser never claims worker held",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Initial delivery and review honest",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Email permission required",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Permission enables draft control",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Edit invalidates prior report",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "New report resets permission",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Report text is not interpreted as HTML",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Downloaded signal valid and unsent",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Clipboard failure has honest fallback",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No persistence APIs in application source",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No cookies",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No-JavaScript form hidden",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No-JavaScript text route available",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No-JavaScript fallback visible",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Single-file preview photo loaded",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Single-file preview form works",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Single-file protocol embedded",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No JavaScript errors",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "No HTTP requests in browser interactions",
+      "status": "PASS",
+      "details": {
+        "requests": 0,
+        "external": []
+      }
+    },
+    {
+      "check": "Public photo has no EXIF metadata",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Original photograph unchanged",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Python demo report matches schema",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "passed_checks": 36,
+  "not_tested": [
+    "Physical iPhone Safari",
+    "WebKit rendering",
+    "Screen reader",
+    "Formal WCAG conformance",
+    "Actual mail-client launching, sending, delivery, reply",
+    "Hostile/concurrent filesystem behavior",
+    "Safety-critical use",
+    "Real-model behavior",
+    "End-to-end external runtime integration",
+    "HTTP serving / local file navigation (environment blocked)",
+    "Public hosting",
+    "Independent security or mathematical audit"
+  ],
+  "provenance": "Created and checked in the same assistant work session; not independent verification."
+}

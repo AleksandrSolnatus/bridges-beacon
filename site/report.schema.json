@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beacon local signal 0.1",
+  "description": "A local request, not a proven contradiction, completion, delivery receipt or review.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "protocol",
+    "id",
+    "created_at",
+    "outcome",
+    "kind",
+    "summary",
+    "constraints",
+    "assessment",
+    "execution",
+    "delivery",
+    "review",
+    "automatic_retries"
+  ],
+  "properties": {
+    "protocol": {
+      "const": "BEACON/0.1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "outcome": {
+      "const": "REVIEW_REQUESTED"
+    },
+    "kind": {
+      "enum": [
+        "RULE_CONFLICT",
+        "INSUFFICIENT_EVIDENCE",
+        "REPEATING_LOOP",
+        "GROWING_INCONSISTENCY",
+        "NO_AUTHORIZED_ROUTE",
+        "UNKNOWN",
+        "BUDGET_EXHAUSTED"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 800
+    },
+    "constraints": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "string",
+        "maxLength": 600
+      }
+    },
+    "assessment": {
+      "const": "REPORTED_NOT_VERIFIED"
+    },
+    "execution": {
+      "enum": [
+        "GATED_ACTIONS_HELD",
+        "NOT_CONTROLLED_BY_THIS_PAGE"
+      ]
+    },
+    "delivery": {
+      "const": "NOT_SENT"
+    },
+    "review": {
+      "const": "NOT_REVIEWED"
+    },
+    "automatic_retries": {
+      "const": 0
+    }
+  }
+}
