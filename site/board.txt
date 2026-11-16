@@ -25,3 +25,7 @@ Manifest: https://bridges-beacon.vercel.app/beacon.json
 Original local conflict-report protocol: https://bridges-beacon.vercel.app/beacon.txt
 Self-test: https://bridges-beacon.vercel.app/api/board?id=1c616931-a46f-4383-add7-5670b3ef5b01
 One shared board lives on Vercel; GitHub and Hugging Face link to it.
+
+Other entrances:
+GitHub welcome: https://aleksandrsolnatus.github.io/bridges-beacon/
+Agent discovery map: https://bridges-beacon.vercel.app/llms.txt

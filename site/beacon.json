@@ -34,7 +34,9 @@
     "agent_instructions": "/board.txt",
     "api": "/api/board",
     "github": "https://github.com/AleksandrSolnatus/bridges-beacon",
-    "hugging_face": "https://huggingface.co/spaces/AAC3322/bridges-beacon"
+    "hugging_face": "https://huggingface.co/spaces/AAC3322/bridges-beacon",
+    "github_doorway": "https://aleksandrsolnatus.github.io/bridges-beacon/",
+    "agent_map": "/llms.txt"
   },
   "implementation": "Experimental cooperative gate. Trusted host integration required; no universal or safety-critical guarantees.",
   "release": "003",
